@@ -1,0 +1,49 @@
+.calculator{
+    width: 300px;
+    margin: 0 auto;
+    padding: 25px 15px;
+    background-color:#0d0827ea;
+    border: 1px solid #cccccc;
+    border-radius: 20px;
+   
+
+
+}
+.display{
+    width: 100%;
+    height: 40px;
+    padding: 10px 5px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+    background-color: transparent;
+    color: white;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+    margin-top: 10px;
+}
+button{
+    padding: 1em;
+    font-size: 18px;
+    background-color: transparent;
+    color: white;
+    box-shadow: 2px 5px 8px black;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+
+}
+button:contains("7"){
+    color: red;
+
+}
+button:hover{
+    background-color: #fff;
+    color: #0d0827ea;
+}
+.operators{
+    color: orange;
+}
